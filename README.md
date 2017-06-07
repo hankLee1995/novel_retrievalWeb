@@ -2,3 +2,5 @@
 基于Luncene开发的小说检索网站
 作者：自然派小组
 采用java语言开发，结合了hibernate框架，采用mysql数据库
+注意！！：解压包都解压后放到同一个工程文件下。源码中打开默认会有错误，需要加入你本地的tomcat的jar包到工程bulid path中，并且在web-info的lib目录下加入sql-connection的jar包。
+同时，由于目录不同，需要将TextQuery类中的索引目录修改为你电脑上工程下my_searcher/index的绝对路径才可。
